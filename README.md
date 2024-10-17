@@ -29,11 +29,11 @@ A personal portfolio website showcasing my skills, projects, and work. This proj
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
+   git clone https://github.com/Gamson3/My-Portfolio.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd your-repo
+   cd My-Portfolio
    ```
 3. Open `index.html` in your browser to view the project.
 
