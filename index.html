@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gideon Gamson | Software Engineer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="favicon" href="/assets/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/0a8e24f1fe.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img
+            src="/assets/images/Logo-user.png"
+            alt="logo-image"
+            class="logo"
+          />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <h1>SOftware Developer & Designer</h1>
+          <h2>Hi, I'm Gideon <span>Gamson.</span></h2>
+          <p>
+            A dedicated problem solver focused on building innovative software
+            solutions and user-centric applications. I bring creative ideas to
+            life. Always eager to collaborate and contribute to the success of
+            cutting-edge products.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------About Section------------------>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="/assets/images/User3.jpg" alt="user-image" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              As a passionate Computer Science Engineering student, I am driven
+              by a strong desire to solve complex problems through innovative
+              technology. My education has provided me with a solid foundation
+              in software development, algorithms, data structures, and systems
+              design.
+            </p>
+
+            <p>
+                Throughout my studies, I have actively participated in various
+                projects that have honed my technical skills. This experience has
+                enhanced my coding abilities in HTML, CSS, and JavaScript while
+                teaching me valuable lessons in user experience design.
+            </p>
+
+            <p>
+              I am continuously seeking opportunities to expand my knowledge and
+              skill set. I actively participate in hackathons and coding
+              competitions, which have not only sharpened my problem-solving
+              skills but also allowed me to connect with like-minded individuals
+              and industry professionals.
+            </p>
+
+            <div class="tabs">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tabs-content active-tab" id="skills">
+              <ul>
+                <li>
+                    <span>Programming Languages</span><br>JavaScript, Python, Java, HTML5, CSS3, SQL
+                </li>
+                <li>
+                    <span>Frameworks & Libraries</span><br>React, Node.js, Bootstrap
+                </li>
+                <li>
+                  <span>Tools</span><br>Git, Agile Development, REST APIs
+                </li>
+                <li>
+                  <span>Other</span><br>OpenWeatherMap API, UI/UX Design
+                </li>
+              </ul>
+            </div>
+            <div class="tabs-content" id="experience">
+              <ul>
+                <li>
+                  <span>2022 - Current</span><br />Computer Science Engineering
+                  Training at the University of Pécs
+                </li>
+                <li>
+                  <span>2021 - 2022</span><br />Computer Engineering Training at the
+                  Kharkiv National University of RadioElectronics
+                </li>
+                <li>
+                  <span>2021</span><br />Fullstack Web Development Bootcamp with
+                  Angela Yu
+                </li>
+              </ul>
+            </div>
+            <div class="tabs-content" id="education">
+              <ul>
+                <li>
+                  <span>2022 - Current</span><br />Bsc. Computer Science
+                  Engineering at the University of Pécs
+                </li>
+                <li>
+                  <span>2021 - 2022</span><br />Computer Engineering Training at
+                  the Kharkiv National University of RadioElectronics
+                </li>
+                <li>
+                  <span>2021</span><br />The Complete Web Development Bootcamp
+                  with Angela Yu
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -------------------Services Section-------------------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+                Building modern, responsive websites that prioritize user experience and functionality.
+                <br>Technologies: HTML, CSS, JavaScript, React.js, Bootstrap.
+            </p>
+            <a href="#contact">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-sharp fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+                Creating intuitive and engaging user interfaces that enhance the overall user experience.
+            </p>
+            <a href="#contact">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>Graphic Design</h2>
+            <p>
+                Offering creative design services, from logos to social media graphics, to help businesses and individuals stand out visually.
+                <br>Tools: Adobe Photoshop, Illustrator, Canva.
+            </p>
+            <a href="#contact">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------------Portfolio Section--------------------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="assets/images/illustration-WeatherApp.png" alt="work 1" />
+            <div class="layer">
+              <h3>Weatherly 🌤️</h3>
+              <p>
+                A responsive real-time weather application that provides weather data
+                for any city using the OpenWeatherMap API.
+              </p>
+              <a href="https://gamson3.github.io/Weatherly/" target="_blank"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="assets/images/illustration-Employee-wages-calculator.png" alt="work 2" />
+            <div class="layer">
+              <h3>Employee Wage Calculator</h3>
+              <p>
+                An object oriented console application in Java, using IntelliJ IDEA developer environment to maintain and calculate wages of employees
+              </p>
+              <a href="https://github.com/Gamson3/EmployeeWagesCalculator" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="assets/images/illustration-news-letter-sign-up-with-success-message.png" alt="work 3" />
+            <div class="layer">
+              <h3>Newsletter Subscription Form</h3>
+              <p>
+                A responsive Newsletter subscription form with real-time validation. Users can enter their email address, see success messages upon submission, and view form validation messages if the field is empty or the email format is incorrect. The interface adjusts to different screen sizes and includes hover and focus states for all interactive elements.
+              </p>
+              <a href="https://gamson3.github.io/Newsletter-sign-up-with-success-message/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="https://github.com/Gamson3?tab=repositories" target="_blank" class="button">See More</a>
+      </div>
+    </div>
+    <!-- ------------------Contact Section--------------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left-col">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>0123456789</p>
+            <div class="social-icons">
+              <a href="https://linkedin.com"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href=""><i class="fa-brands fa-github"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-skype"></i></a>
+            </div>
+            <a href="/assets/images/Resume-Gideon_Gamson.pdf" download class="button button2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right-col">
+            <form action="https://api.web3forms.com/submit" 
+              id="contactForm" 
+              method="post" 
+              autocomplete="off"
+              class="needs-validation" 
+              novalidate
+              >
+
+              <!--Don't forget to put your access key!-->
+              <input type="hidden" name="access_key" value="0ec49e9b-f71d-4a0a-bc8b-877b9d09daaf">
+              <input type="hidden" name="subject" value="New Submission from Web3Forms">
+              <!-- To Prevent SPAM Submission -->
+              <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+              <!--Name-->
+              <input type="text" name="Name" placeholder="Your Name"  autocomplete="off" id="name"required>
+              <span class="error-message" id="nameError">Name required</span>
+
+              <!--Email-->
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+                autocomplete="off"
+                id="email"
+              />
+              <span class="error-message" id="emailError">Valid email required</span>
+
+              <!--Message-->
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+                autocomplete="off"
+                id="message"
+                required
+              ></textarea>
+              <span class="error-message" id="messageError">Message can't be blank</span>
+
+              <button type="submit" class="button button2">Submit</button>
+              <!--Response-->
+              <div id="form-message" class="form-message" style="display: none; color: #14b4ec;"></div>
+              
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          © Copyright 2023. Made with
+          <i class="fa-sharp fa-solid fa-heart"></i> by Gamson Gideon
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+  </body>
+</html>
