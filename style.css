@@ -441,10 +441,10 @@ nav .fa-solid{
         background-image: url(assets/images/phone-background1.png);
     }
     .header-text{
-        margin-top: 100%;
+        margin-top: 10%;
         font-size: 16px;
     }
-    .header-text h1{
+    .header-text h1, h2{
         font-size: 30px;
     }
     nav .fa-solid{
@@ -482,6 +482,7 @@ nav .fa-solid{
         flex-basis: 100%;
     }
     .about-col-1{
+        margin-top: 10%;
         margin-bottom: 30px;
     }
     .about-col-2{
